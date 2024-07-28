@@ -17,6 +17,8 @@ cd <repository-directory>
 cargo run
 ```
 
+- If you want to do a specific test, update `main.rs` file and comment out a test you don't want to do/repeat
+
 3. Create your own repository on GitHub.
 
 4. Push your solutions to your newly created repository:
