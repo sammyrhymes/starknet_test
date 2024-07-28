@@ -7,8 +7,8 @@ Welcome to the Starknet Test! In this test, you will be required to clone this r
 1. Clone this repository:
 
 ```sh
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/dalmasonto/Starknet-Test
+cd comprehensive_test
 ```
 
 2. Complete all the tests provided in the repository by running the programme using:
