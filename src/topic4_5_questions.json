@@ -1,0 +1,221 @@
+[
+    {
+        "question": "<p>Which platform is known for its seamless integration with Next.js and offers a developer-friendly interface for deploying DApps?</p>",
+        "options": [
+            {
+                "answer": "<p>Vercel</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>GitHub Pages</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Netlify</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Firebase</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>Which platform is commonly used for hosting static websites and can be leveraged for deploying DApps that rely on front-end frameworks like React?</p>",
+        "options": [
+            {
+                "answer": "<p>Vercel</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>GitHub Pages</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Netlify</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Firebase</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>Which platform is known for its comprehensive suite of services, including hosting, databases, and authentication, making it suitable for deploying more complex DApps?</p>",
+        "options": [
+            {
+                "answer": "<p>Vercel</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>GitHub Pages</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Netlify</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Firebase</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>Which platform provides a user-friendly interface for configuring custom domains and SSL certificates, simplifying the deployment of secure DApps?</p>",
+        "options": [
+            {
+                "answer": "<p>Vercel</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>GitHub Pages</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Netlify</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Firebase</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>When deploying a DApp to Vercel, which configuration file is typically used to define the project's build settings and deployment behavior?</p>",
+        "options": [
+            {
+                "answer": "<p>package.json</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>vercel.json</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>netlify.toml</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>firebase.json</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>When deploying a DApp to Netlify, which configuration file is typically used to define the project's build settings and deployment behavior?</p>",
+        "options": [
+            {
+                "answer": "<p>package.json</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>vercel.json</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>netlify.toml</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>firebase.json</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>When deploying a DApp to Firebase, which configuration file is typically used to define the project's build settings and deployment behavior?</p>",
+        "options": [
+            {
+                "answer": "<p>package.json</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>vercel.json</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>netlify.toml</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>firebase.json</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>Which command-line tool is commonly used to interact with Firebase and deploy DApps to the platform?</p>",
+        "options": [
+            {
+                "answer": "<p>npm</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>firebase</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>vercel</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>netlify</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>If a DApp is experiencing slow loading times after deployment, which troubleshooting step might help identify the cause?</p>",
+        "options": [
+            {
+                "answer": "<p>Checking the browser's cache</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Updating the DApp's code</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Contacting the hosting provider's support</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Re-deploying the DApp</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What is the primary difference between deploying a DApp to a centralized hosting platform like Vercel versus a decentralized network like IPFS?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>Deploy your DApp to any of the platforms mentioned in the test. Provide a link to the deployed application.</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 5.0
+    }
+]

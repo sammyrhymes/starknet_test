@@ -1,0 +1,842 @@
+[
+    {
+        "question": "<p>What is the primary purpose of Starknet in the Ethereum ecosystem?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 2.0
+    },
+    {
+        "question": "<p>Explain the concept of <code>zero-knowledge proofs</code> and how they contribute to Starknet's security.</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>Which of the following is <strong>NOT</strong> a core feature of Starknet?</p>",
+        "options": [
+            {
+                "answer": "<p>Scalability</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Security</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Decentralization</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Interoperability with other blockchains</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What are the main advantages of using Starknet for building decentralized applications?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>How does Starknet's consensus mechanism differ from Ethereum's Proof-of-Stake?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>Which of the following statements about Starknet's data availability is <strong>TRUE</strong>?</p>",
+        "options": [
+            {
+                "answer": "<p>All transaction data is permanently stored on the Ethereum mainnet.</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Starknet uses a separate data availability layer to ensure data integrity.</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Data availability is not a concern in Starknet, as it relies on Ethereum's data availability.</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Data availability is handled by a centralized authority.</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>Describe the process of transferring assets between Starknet and the Ethereum mainnet.</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>How does <strong>Starknet</strong> achieve its high scalability compared to<strong> Ethereum's mainnet</strong>?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>Which of the following is a potential security challenge faced by Starknet?</p>",
+        "options": [
+            {
+                "answer": "<p>Vulnerability to 51% attacks</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Lack of code audits for smart contracts</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Potential for front-running attacks</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Limited access to on-chain data</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 2.0
+    },
+    {
+        "question": "<p>What are some potential use cases for Starknet in the real world?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What are some limitations or drawbacks of using <strong>Starknet</strong> technology?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What is the purpose of the <code>felt252</code> type in the Cairo language?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 2.0
+    },
+    {
+        "question": "<p>Write a simple Cairo program that calculates the factorial of a given integer.</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 5.0
+    },
+    {
+        "question": "<p>How does Cairo handle <code>memory management</code> compared to traditional programming languages?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>Which of the following is NOT a key feature of the Cairo language?</p>",
+        "options": [
+            {
+                "answer": "<p>Static typing</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Support for zero-knowledge proofs</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Built-in support for object-oriented programming</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Use of a virtual machine for execution</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>Explain the concept of 'felt' variables in Cairo and their role in smart contract execution.</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What are some best practices for writing secure and efficient Cairo smart contracts?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>How do you deploy a Cairo smart contract to Starknet?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What is the role of the Cairo <code>contract</code> keyword in defining smart contracts?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 2.0
+    },
+    {
+        "question": "<p>Which of the following is a valid Cairo function declaration?</p>",
+        "options": [
+            {
+                "answer": "<pre><code class=\"language-rust\">fn my_function(a: felt252, b: felt252) -&gt; felt252 { \n    .\n    .\n    .\n}</code></pre>",
+                "is_correct": false
+            },
+            {
+                "answer": "<pre><code class=\"language-rust\">func my_function(a: felt252, b: felt252) -&gt; felt252 { \n    .\n    .\n    .\n}</code></pre>",
+                "is_correct": false
+            },
+            {
+                "answer": "<pre><code class=\"language-rust\">fn my_function(a: felt252, b: felt252) -&gt; (res: felt252) { \n    .\n    .\n    .\n}</code></pre>",
+                "is_correct": false
+            },
+            {
+                "answer": "<pre><code class=\"language-rust\">def my_function(a: felt252, b: felt252) -&gt; felt252 { \n    .\n    .\n    .\n}</code></pre><pre><code class=\"language-shellscript\"></code></pre>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What are the differences between a <code>struct</code> and an <code>enum</code> in Cairo?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>What are some common security vulnerabilities to be aware of when developing smart contracts on Starknet?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>How can you ensure the security of your Cairo smart contracts during development?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>Which of the following is NOT a common use case for smart contracts on Starknet?</p>",
+        "options": [
+            {
+                "answer": "<p>Decentralized exchanges</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Non-fungible tokens (NFTs)</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Centralized financial applications</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Decentralized gaming</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>Explain the process of interacting with a deployed Starknet smart contract from a frontend application.</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>What are some popular tools and libraries for integrating Starknet with frontend applications?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What is one of the primary advantages of using Starknet for decentralized applications?</p>",
+        "options": [
+            {
+                "answer": "<p>Enhanced privacy</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Improved scalability</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Lower transaction fees</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Increased energy efficiency</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What are some common challenges faced when integrating Starknet with frontend applications?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What is the purpose of Dojo in the context of Starknet development?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 2.0
+    },
+    {
+        "question": "<p>Which of the following is <strong>NOT</strong> a key feature of Dojo?</p>",
+        "options": [
+            {
+                "answer": "<p>Support for game logic development</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Built-in support for graphics rendering</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Integration with popular game engines</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Easy-to-use API for interacting with Starknet contracts</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>Describe the advantages of using Dojo for building decentralized games on Starknet.</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What are some unique challenges and opportunities of building blockchain-based games on Starknet?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>Explain the concept of <code>'state channels'</code> in the context of Starknet and how they can be used for gaming applications.</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>Which of the following is NOT a valid type in the Cairo language?</p>",
+        "options": [
+            {
+                "answer": "<p><code>felt252</code></p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p><code>bool</code></p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p><code>string</code></p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p><code>array</code></p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>How can you implement a simple random number generator <code>(RNG)</code> in a Cairo smart contract?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>What are some common use cases for Cairo smart contracts in decentralized finance (DeFi)?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>How can you test your Cairo smart contracts before deploying them to Starknet?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What are some common libraries and frameworks available for developing frontend applications that interact with Starknet smart contracts?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>How does Starknet achieve scalability while maintaining security?</p>",
+        "options": [
+            {
+                "answer": "<p>By using a sharding mechanism</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>By leveraging rollups</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>By utilizing proof-of-work consensus</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>By implementing sidechains</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 3.0
+    },
+    {
+        "question": "<p>How can you handle user authentication and authorization in a frontend application interacting with a Starknet smart contract?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 4.0
+    },
+    {
+        "question": "<p>What is the primary purpose of the Cairo programming language in Starknet?</p>",
+        "options": [
+            {
+                "answer": "<p>To write efficient smart contracts</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>To design user interfaces</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>To manage data availability</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>To secure transactions</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>How can you optimize the performance of a frontend application that interacts with a Starknet smart contract?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What are some future trends and developments expected in the Starknet ecosystem?</p>",
+        "options": [],
+        "question_type": "oe",
+        "points": 3.0
+    },
+    {
+        "question": "<p>Which consensus mechanism does Starknet utilize?</p>",
+        "options": [
+            {
+                "answer": "<p>Proof-of-Work (PoW)</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Proof-of-Stake (PoS)</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Proof-of-Authority (PoA)</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Validium</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What type of rollup does Starknet primarily use?</p>",
+        "options": [
+            {
+                "answer": "<p>Optimistic Rollups</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>ZK-Rollups (Zero-Knowledge Rollups)</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Plasma Rollups</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>State Channels</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What is the first step in deploying a smart contract on Starknet?</p>",
+        "options": [
+            {
+                "answer": "<p>Writing the contract code in Cairo</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Auditing the contract</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Interacting with the contract using a frontend</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Creating a user interface</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "sc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What is the primary programming language used for writing StarkNet contracts?</p>",
+        "options": [
+            {
+                "answer": "<p>Solidity</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Cairo</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Python</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>JavaScript</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 2.0
+    },
+    {
+        "question": "<p>Which of the following is a core feature of StarkNet?</p>",
+        "options": [
+            {
+                "answer": "<p>Proof of Work consensus mechanism</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Zero-knowledge proofs</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>On-chain governance</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Native support for smart contracts</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What is the main advantage of using StarkNet compared to other Layer 2 scaling solutions?</p>",
+        "options": [
+            {
+                "answer": "<p>Lower transaction fees</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Higher transaction throughput</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Improved privacy and security</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Integration with existing Ethereum applications</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 4.0
+    },
+    {
+        "question": "<p>Which of the following is NOT a potential use case for StarkNet?</p>",
+        "options": [
+            {
+                "answer": "<p>Decentralized finance (DeFi)</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Non-fungible tokens (NFTs)</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Supply chain management</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Centralized data storage</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 2.0
+    },
+    {
+        "question": "<p>What is the role of the StarkNet sequencer in the network?</p>",
+        "options": [
+            {
+                "answer": "<p>To validate transactions and generate proofs</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>To store and manage user keys</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>To provide liquidity to the network</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>To develop and maintain the StarkNet protocol</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Receiving transactions, ordering them, and producing blocks</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 2.0
+    },
+    {
+        "question": "<p>Which one of the following wallets <strong>cannot</strong> be used on Starknet?</p>",
+        "options": [
+            {
+                "answer": "<p>Metamask</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Braavos</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>Trust Wallet</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>ArgentX</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 3.0
+    },
+    {
+        "question": "<p>What is the maximum amount of time within which a pending block is closed on Starknet, if no other limit is met?</p>",
+        "options": [
+            {
+                "answer": "<p>1 minute</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>6 minutes</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>10 minutes</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>15 minutes</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What is the maximum number of Cairo steps that can be completed within each block on Starknet to ensure block production times remain consistent and predictable?</p>",
+        "options": [
+            {
+                "answer": "<p>10,000,000</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>20,000,000</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>40,000,000</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>60,000,000</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What is the gas limit for Starknet blocks, and where does it come from?</p>",
+        "options": [
+            {
+                "answer": "<p>1,000,000, inherited from the gas limit for Ethereum blocks</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>5,000,000, inherited from the gas limit for Ethereum blocks</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>10,000,000, set independently from the Ethereum gas limit</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>There is no gas limit for Starknet blocks</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What is the maximum number of Cairo steps that a transaction can contain when processed on the Starknet network?</p>",
+        "options": [
+            {
+                "answer": "<p>1,000,000</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>2,000,000</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>4,000,000</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>8,000,000</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What is the maximum number of computational steps, measured in Cairo steps, for a validate function on Starknet?</p>",
+        "options": [
+            {
+                "answer": "<p>500,000</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>1,000,000</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>2,000,000</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>4,000,000</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What is the maximum size of the bytecode or program that a smart contract can have on Starknet, measured in the number of felts in the program?</p>",
+        "options": [
+            {
+                "answer": "<p>40,960</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>65,536</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>81,290</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>100,000</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What is the maximum size for a contract class within Starknet?</p>",
+        "options": [
+            {
+                "answer": "<p>1,024,000 bytes</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>2,048,000 bytes</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>4,089,446 bytes</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>8,192,000 bytes</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 1.0
+    },
+    {
+        "question": "<p>What is the maximum number of contract reads and writes that a single IP address can make on Starknet per minute, and why is this limit in place?</p>",
+        "options": [
+            {
+                "answer": "<p>100, to prevent network congestion</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>200, to prevent network spam</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>500, to ensure fair access to the network</p>",
+                "is_correct": false
+            },
+            {
+                "answer": "<p>There is no limit on contract reads and writes per IP address</p>",
+                "is_correct": false
+            }
+        ],
+        "question_type": "mc",
+        "points": 1.0
+    }
+]
