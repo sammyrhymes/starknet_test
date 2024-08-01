@@ -47,7 +47,7 @@
         "points": 4.0
     },
     {
-        "question": "<p>Which of the following statements about Starknet's data availability is <strong>false</strong>?</p>",
+        "question": "<p>Which of the following statements about Starknet's data availability is <strong>TRUE</strong>?</p>",
         "options": [
             {
                 "answer": "<p>All transaction data is permanently stored on the Ethereum mainnet.</p>",
