@@ -12,5 +12,6 @@ fn main() -> io::Result<()> {
 
     println!("\nDoing Comprehensive test for all the topics covered\n");
     let _ = do_test("src/comprehensive_questions.json", "src/comprehensive_test_answers.json");
+
     Ok(())
 }
