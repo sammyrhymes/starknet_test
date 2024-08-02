@@ -4,11 +4,11 @@
         "options": [
             {
                 "answer": "<p>Vercel</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>GitHub Pages</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Netlify</p>",
@@ -35,7 +35,7 @@
             },
             {
                 "answer": "<p>Netlify</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Firebase</p>",
@@ -62,7 +62,7 @@
             },
             {
                 "answer": "<p>Firebase</p>",
-                "is_correct": false
+                "is_correct": true
             }
         ],
         "question_type": "sc",
@@ -81,7 +81,7 @@
             },
             {
                 "answer": "<p>Netlify</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Firebase</p>",
@@ -100,7 +100,7 @@
             },
             {
                 "answer": "<p>vercel.json</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>netlify.toml</p>",
@@ -127,7 +127,7 @@
             },
             {
                 "answer": "<p>netlify.toml</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>firebase.json</p>",
@@ -154,7 +154,7 @@
             },
             {
                 "answer": "<p>firebase.json</p>",
-                "is_correct": false
+                "is_correct": true
             }
         ],
         "question_type": "sc",
@@ -169,7 +169,7 @@
             },
             {
                 "answer": "<p>firebase</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>vercel</p>",
@@ -196,7 +196,7 @@
             },
             {
                 "answer": "<p>Contacting the hosting provider's support</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Re-deploying the DApp</p>",
@@ -208,7 +208,7 @@
     },
     {
         "question": "<p>What is the primary difference between deploying a DApp to a centralized hosting platform like Vercel versus a decentralized network like IPFS?</p>",
-        "options": [],
+        "options": ["cenrtalized deployment has a central point of failure and censorship while decentralized like ipfs distribute content across multiple nodes making it more reselient to censorship and failure. This brings about a technical complexity issue in terms od setup and deployment unlike that of vercels where its really easy to deploment"],
         "question_type": "oe",
         "points": 3.0
     },

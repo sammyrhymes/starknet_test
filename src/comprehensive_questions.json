@@ -1,13 +1,13 @@
 [
     {
         "question": "<p>What is the primary purpose of Starknet in the Ethereum ecosystem?</p>",
-        "options": [],
+        "options": ["to improve scalability and security"],
         "question_type": "oe",
         "points": 2.0
     },
     {
         "question": "<p>Explain the concept of <code>zero-knowledge proofs</code> and how they contribute to Starknet's security.</p>",
-        "options": [],
+        "options": ["Zero-knowledge proofs allow proving information without revealing it. Starknet uses STARKs, a type of zero-knowledge proof, to enhance security by verifying transaction validity without exposing underlying data, improving scalability through efficient proof generation and verification, and preventing fraud by ensuring proof integrity."],
         "question_type": "oe",
         "points": 4.0
     },
@@ -28,7 +28,7 @@
             },
             {
                 "answer": "<p>Interoperability with other blockchains</p>",
-                "is_correct": false
+                "is_correct": true
             }
         ],
         "question_type": "sc",
@@ -36,13 +36,13 @@
     },
     {
         "question": "<p>What are the main advantages of using Starknet for building decentralized applications?</p>",
-        "options": [],
+        "options": ["Starknet offers scalability, enabling high-throughput transactions and improved user experience. Its strong security guarantees protect user assets and data. Additionally, Starknet's compatibility with Ethereum allows for interoperability and access to a wider ecosystem."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>How does Starknet's consensus mechanism differ from Ethereum's Proof-of-Stake?</p>",
-        "options": [],
+        "options": ["Starknet primarily uses a sequencer-based model, where a single entity orders transactions before generating proofs. This differs from Ethereum's Proof-of-Stake, which relies on a decentralized network of validators to reach consensus on block content. While Starknet is exploring decentralized consensus mechanisms, its current approach prioritizes scalability and is evolving towards a more decentralized model."],
         "question_type": "oe",
         "points": 4.0
     },
@@ -55,7 +55,7 @@
             },
             {
                 "answer": "<p>Starknet uses a separate data availability layer to ensure data integrity.</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Data availability is not a concern in Starknet, as it relies on Ethereum's data availability.</p>",
@@ -71,13 +71,13 @@
     },
     {
         "question": "<p>Describe the process of transferring assets between Starknet and the Ethereum mainnet.</p>",
-        "options": [],
+        "options": ["Assets are transferred between Starknet and Ethereum using bridges. These bridges facilitate the movement of tokens and other digital assets between the two networks. The process typically involves locking assets on one chain, minting equivalent representations on the other chain, and allowing users to redeem the original assets after transferring them back. This enables interoperability and access to the benefits of both networks"],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>How does <strong>Starknet</strong> achieve its high scalability compared to<strong> Ethereum's mainnet</strong>?</p>",
-        "options": [],
+        "options": ["Starknet achieves high scalability by processing transactions off-chain in batches and generating a succinct proof of the batch's validity. This proof, along with a compressed set of data, is submitted to Ethereum, significantly reducing the computational load on the mainnet. Additionally, Starknet utilizes zero-knowledge proofs to verify the correctness of the off-chain computations without revealing transaction details, enhancing privacy and efficiency."],
         "question_type": "oe",
         "points": 4.0
     },
@@ -90,7 +90,7 @@
             },
             {
                 "answer": "<p>Lack of code audits for smart contracts</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Potential for front-running attacks</p>",
@@ -106,31 +106,31 @@
     },
     {
         "question": "<p>What are some potential use cases for Starknet in the real world?</p>",
-        "options": [],
+        "options": ["Starknet can be used for various real-world applications, including decentralized finance (DeFi), supply chain management, identity verification, gaming, and digital asset management. Its scalability and security make it suitable for handling high transaction volumes and sensitive data, while its interoperability with Ethereum enables access to a wider ecosystem."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>What are some limitations or drawbacks of using <strong>Starknet</strong> technology?</p>",
-        "options": [],
+        "options": ["Starknet is still a relatively new technology with some limitations. It requires significant computational resources for generating and verifying proofs, which can be costly. Additionally, the complexity of Starknet's architecture can make it challenging for developers to build applications on the platform. While Starknet is making progress towards decentralization, it currently relies on a centralized sequencer, which raises concerns about potential points of failure."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>What is the purpose of the <code>felt252</code> type in the Cairo language?</p>",
-        "options": [],
+        "options": [" type in Cairo represents a 252-bit field element. It's used for various purposes, including representing integers, short strings, and as keys in dictionaries. All arithmetic operations in Cairo are performed modulo a large prime number, ensuring results stay within the 252-bit range."],
         "question_type": "oe",
         "points": 2.0
     },
     {
         "question": "<p>Write a simple Cairo program that calculates the factorial of a given integer.</p>",
-        "options": [],
+        "options": ["fn main(){    fib(16)}fn fib(mut n: u32) -> u32 {let mut a: u32 = 0;let mut b: u32 = 1; while n != 0 {n = n - 1;let temp = b;b = a + b;a = temp;};a}"],
         "question_type": "oe",
         "points": 5.0
     },
     {
         "question": "<p>How does Cairo handle <code>memory management</code> compared to traditional programming languages?</p>",
-        "options": [],
+        "options": ["Cairo employs a stack-based memory model, where variables are allocated on the stack during function calls and deallocated automatically upon function return. This approach simplifies memory management compared to languages with heap-based allocation, eliminating the need for manual memory deallocation and reducing the risk of memory leaks. However, it also imposes limitations on data structures and recursion depth."],
         "question_type": "oe",
         "points": 3.0
     },
@@ -147,7 +147,7 @@
             },
             {
                 "answer": "<p>Built-in support for object-oriented programming</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Use of a virtual machine for execution</p>",
@@ -159,25 +159,25 @@
     },
     {
         "question": "<p>Explain the concept of 'felt' variables in Cairo and their role in smart contract execution.</p>",
-        "options": [],
+        "options": ["is a fundamental data type representing a 252-bit field element. It's used to store various types of data, including integers, booleans, and addresses. Felt variables play a crucial role in smart contract execution as they are used for arithmetic operations, memory management, and data manipulation. The use of felt variables enables efficient computations and contributes to the overall performance of Cairo smart contracts."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>What are some best practices for writing secure and efficient Cairo smart contracts?</p>",
-        "options": [],
+        "options": ["Thorough code auditing and testing to identify vulnerabilities and errors.Using formal verification tools to prove the correctness of smart contract logic.Minimizing gas consumption through efficient use of Cairo language features and avoiding unnecessary computations.Employing defensive programming techniques to protect against potential attacks like reentrancy and integer overflows."],
         "question_type": "oe",
         "points": 4.0
     },
     {
         "question": "<p>How do you deploy a Cairo smart contract to Starknet?</p>",
-        "options": [],
+        "options": ["Write your Cairo contract code.Compile the Cairo code into a Cairo bytecode.Create a Starknet account.Prepare the deployment transaction, including the compiled contract bytecode and constructor arguments.Sign and submit the deployment transaction to the Starknet network.Once the transaction is confirmed, your contract is deployed and accessible on Starknet."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>What is the role of the Cairo <code>contract</code> keyword in defining smart contracts?</p>",
-        "options": [],
+        "options": ["It encapsulates the contract's state, functions, and other components within a single unit. This helps in organizing the contract's code and managing its scope. Contracts can also interact with other contracts through interfaces and traits."],
         "question_type": "oe",
         "points": 2.0
     },
@@ -190,7 +190,7 @@
             },
             {
                 "answer": "<pre><code class=\"language-rust\">func my_function(a: felt252, b: felt252) -&gt; felt252 { \n    .\n    .\n    .\n}</code></pre>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<pre><code class=\"language-rust\">fn my_function(a: felt252, b: felt252) -&gt; (res: felt252) { \n    .\n    .\n    .\n}</code></pre>",
@@ -206,19 +206,19 @@
     },
     {
         "question": "<p>What are the differences between a <code>struct</code> and an <code>enum</code> in Cairo?</p>",
-        "options": [],
+        "options": ["A struct in Cairo is a composite data type with named fields, allowing you to group related data. Enums define a set of named constants, representing a fixed set of values. Structs can hold data, are mutable, and offer flexibility. Enums are immutable and simpler, used for representing specific options."],
         "question_type": "oe",
         "points": 4.0
     },
     {
         "question": "<p>What are some common security vulnerabilities to be aware of when developing smart contracts on Starknet?</p>",
-        "options": [],
+        "options": ["Common security vulnerabilities in Starknet smart contracts include reentrancy attacks, integer overflows, access control issues, and vulnerabilities arising from improper error handling."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>How can you ensure the security of your Cairo smart contracts during development?</p>",
-        "options": [],
+        "options": ["To ensure the security of your Cairo smart contracts, conduct thorough code audits and reviews, leverage formal verification tools, employ defensive programming practices, implement access controls rigorously, handle errors gracefully, and stay updated with the latest security best practices and patches."],
         "question_type": "oe",
         "points": 4.0
     },
@@ -235,7 +235,7 @@
             },
             {
                 "answer": "<p>Centralized financial applications</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Decentralized gaming</p>",
@@ -247,13 +247,13 @@
     },
     {
         "question": "<p>Explain the process of interacting with a deployed Starknet smart contract from a frontend application.</p>",
-        "options": [],
+        "options": ["To interact with a deployed Starknet smart contract from a frontend application, you typically need to establish a connection to the Starknet network using a provider library, create a contract instance using the contract's address and ABI, prepare transaction data with necessary function calls and arguments, sign the transaction using the user's private key, and broadcast the signed transaction to the Starknet network. You can then monitor the transaction status and handle the response accordingly."],
         "question_type": "oe",
         "points": 4.0
     },
     {
         "question": "<p>What are some popular tools and libraries for integrating Starknet with frontend applications?</p>",
-        "options": [],
+        "options": ["starknet.js, web3.js, react.js"],
         "question_type": "oe",
         "points": 3.0
     },
@@ -266,7 +266,7 @@
             },
             {
                 "answer": "<p>Improved scalability</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Lower transaction fees</p>",
@@ -282,13 +282,13 @@
     },
     {
         "question": "<p>What are some common challenges faced when integrating Starknet with frontend applications?</p>",
-        "options": [],
+        "options": ["managing user authentication, handling transaction confirmations and errors, providing a seamless user experience with potential long transaction times, and ensuring compatibility with different web browsers and wallets."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>What is the purpose of Dojo in the context of Starknet development?</p>",
-        "options": [],
+        "options": ["Dojo is a provable game engine built on Starknet, designed for creating on-chain games with ownership, interoperability, and extensibility. It provides a framework for game developers to build fast, scalable, and secure games on Starknet."],
         "question_type": "oe",
         "points": 2.0
     },
@@ -301,7 +301,7 @@
             },
             {
                 "answer": "<p>Built-in support for graphics rendering</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Integration with popular game engines</p>",
@@ -317,19 +317,22 @@
     },
     {
         "question": "<p>Describe the advantages of using Dojo for building decentralized games on Starknet.</p>",
-        "options": [],
+        "options": ["Scalability: Handles high transaction volumes and large numbers of players efficiently.",
+"Security: Benefits from Starknet's strong security guarantees, protecting game assets and user data.",
+"Developer-friendly tools: Provides a streamlined development experience with pre-built components and libraries."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>What are some unique challenges and opportunities of building blockchain-based games on Starknet?</p>",
-        "options": [],
+        "options": ["User Experience: Integrating blockchain technology into games can introduce complexities and delays, potentially affecting the overall user experience.",
+"Development Complexity: Building games on a blockchain requires specialized knowledge and skills, making it a more complex development process compared to traditional game development."],
         "question_type": "oe",
         "points": 4.0
     },
     {
         "question": "<p>Explain the concept of <code>'state channels'</code> in the context of Starknet and how they can be used for gaming applications.</p>",
-        "options": [],
+        "options": ["state channels can be used to manage game state, player balances, and in-game items. This allows for fast-paced gameplay without relying on the slow and expensive main chain for every action. Additionally, state channels can enhance privacy by keeping game data off the public blockchain."],
         "question_type": "oe",
         "points": 4.0
     },
@@ -346,7 +349,7 @@
             },
             {
                 "answer": "<p><code>string</code></p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p><code>array</code></p>",
@@ -364,19 +367,21 @@
     },
     {
         "question": "<p>What are some common use cases for Cairo smart contracts in decentralized finance (DeFi)?</p>",
-        "options": [],
+        "options": ["Incorporate the current block timestamp as a seed value. While not truly random, it provides a changing input.",
+"Transaction Hash: Use the hash of the current transaction as a seed. This adds an element of unpredictability.",
+"External Randomness Sources: Integrate external randomness sources like Chainlink's VRF (Verifiable Random Function) to enhance randomness."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>How can you test your Cairo smart contracts before deploying them to Starknet?</p>",
-        "options": [],
+        "options": ["Write dedicated test cases to verify the functionality of individual contract functions."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>What are some common libraries and frameworks available for developing frontend applications that interact with Starknet smart contracts?</p>",
-        "options": [],
+        "options": ["starknet.js, web3.js, react.js"],
         "question_type": "oe",
         "points": 3.0
     },
@@ -389,7 +394,7 @@
             },
             {
                 "answer": "<p>By leveraging rollups</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>By utilizing proof-of-work consensus</p>",
@@ -405,7 +410,7 @@
     },
     {
         "question": "<p>How can you handle user authentication and authorization in a frontend application interacting with a Starknet smart contract?</p>",
-        "options": [],
+        "options": [" "],
         "question_type": "oe",
         "points": 4.0
     },
@@ -414,7 +419,7 @@
         "options": [
             {
                 "answer": "<p>To write efficient smart contracts</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>To design user interfaces</p>",
@@ -434,13 +439,13 @@
     },
     {
         "question": "<p>How can you optimize the performance of a frontend application that interacts with a Starknet smart contract?</p>",
-        "options": [],
+        "options": ["Optimizing frontend performance for Starknet interactions involves a combination of strategies, including efficient data fetching, caching, state management, UI optimization, code optimization, batching transactions, robust error handling, and user experience considerations. By carefully considering these factors, you can significantly improve the responsiveness and overall user satisfaction of your Starknet application."],
         "question_type": "oe",
         "points": 3.0
     },
     {
         "question": "<p>What are some future trends and developments expected in the Starknet ecosystem?</p>",
-        "options": [],
+        "options": ["The Starknet ecosystem is rapidly evolving. We can anticipate advancements in scalability solutions, such as exploring more efficient rollup techniques or hybrid approaches. Additionally, there's a growing focus on developer experience, with the development of more sophisticated tooling and frameworks. Interoperability with other blockchains and Layer-2 solutions will also be a key area of focus. As the ecosystem matures, we can expect to see a wider range of decentralized applications, from DeFi to gaming and beyond, leveraging Starknet's capabilities."],
         "question_type": "oe",
         "points": 3.0
     },
@@ -461,7 +466,7 @@
             },
             {
                 "answer": "<p>Validium</p>",
-                "is_correct": false
+                "is_correct": true
             }
         ],
         "question_type": "sc",
@@ -476,7 +481,7 @@
             },
             {
                 "answer": "<p>ZK-Rollups (Zero-Knowledge Rollups)</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Plasma Rollups</p>",
@@ -495,7 +500,7 @@
         "options": [
             {
                 "answer": "<p>Writing the contract code in Cairo</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Auditing the contract</p>",
@@ -522,7 +527,7 @@
             },
             {
                 "answer": "<p>Cairo</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Python</p>",
@@ -545,7 +550,7 @@
             },
             {
                 "answer": "<p>Zero-knowledge proofs</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>On-chain governance</p>",
@@ -572,7 +577,7 @@
             },
             {
                 "answer": "<p>Improved privacy and security</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>Integration with existing Ethereum applications</p>",
@@ -599,7 +604,7 @@
             },
             {
                 "answer": "<p>Centralized data storage</p>",
-                "is_correct": false
+                "is_correct": true
             }
         ],
         "question_type": "mc",
@@ -626,7 +631,7 @@
             },
             {
                 "answer": "<p>Receiving transactions, ordering them, and producing blocks</p>",
-                "is_correct": false
+                "is_correct": true
             }
         ],
         "question_type": "mc",
@@ -645,7 +650,7 @@
             },
             {
                 "answer": "<p>Trust Wallet</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>ArgentX</p>",
@@ -664,7 +669,7 @@
             },
             {
                 "answer": "<p>6 minutes</p>",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer": "<p>10 minutes</p>",
@@ -718,7 +723,7 @@
             },
             {
                 "answer": "<p>There is no gas limit for Starknet blocks</p>",
-                "is_correct": false
+                "is_correct": true
             }
         ],
         "question_type": "mc",
@@ -741,7 +746,7 @@
             },
             {
                 "answer": "<p>8,000,000</p>",
-                "is_correct": false
+                "is_correct": true
             }
         ],
         "question_type": "mc",
@@ -833,7 +838,7 @@
             },
             {
                 "answer": "<p>There is no limit on contract reads and writes per IP address</p>",
-                "is_correct": false
+                "is_correct": true
             }
         ],
         "question_type": "mc",
